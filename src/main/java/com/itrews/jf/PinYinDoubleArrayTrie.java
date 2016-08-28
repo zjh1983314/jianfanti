@@ -375,7 +375,7 @@ public class PinYinDoubleArrayTrie {
 			InputStreamReader isr = new InputStreamReader(JFDoubleArrayTrie.class.getResourceAsStream(path));
 			LineNumberReader lnr = new LineNumberReader(isr);
 			String s = null;
-			while ((s = lnr.readLine()) != null) {
+			while ((s = lnr.readLine()) != null) {  
 				tempsimp.add(s);
 			}
 			lnr.close();
